@@ -1,0 +1,4 @@
+thread=0 sample=0 cpu=0
+thread=1 sample=0 cpu=0
+thread=1 sample=1 cpu=0
+thread=0 sample=1 cpu=0
