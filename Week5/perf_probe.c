@@ -31,7 +31,6 @@ static void *worker_main(void *arg)
 static double elapsed_seconds(const struct timespec *start,
                               const struct timespec *end)
 {
-    /* TODO: return elapsed time in seconds. */
     time_t seconds = end->tv_sec - start->tv_sec;
     long nanoseconds = end->tv_nsec - start->tv_nsec;
     return (double)seconds + (double)nanoseconds / 1e9;

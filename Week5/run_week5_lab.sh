@@ -18,5 +18,4 @@ for workers in 1 2 4; do
     done
 done
 
-printf 'https://github.com/briskycola\n'
 printf 'Wrote %s\n' "$OUTPUT"
