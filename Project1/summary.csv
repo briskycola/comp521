@@ -1,0 +1,9 @@
+configuration,threads,eligible_cpus,work_units,trials,median_elapsed,min_elapsed,max_elapsed,observed_migrations
+unrestricted,4,system_default,50000000,3,0.28,0.28,0.29,6
+one_cpu,4,1,50000000,3,1.13,1.12,1.15,0
+two_cpu,4,2,50000000,3,0.78,0.77,0.80,6
+oversubscribed,8,2,50000000,3,1.54,1.54,1.55,5
+extension_threads_1,1,2,50000000,3,0.28,0.28,0.28,1
+extension_threads_2,2,2,50000000,3,0.38,0.38,0.38,0
+extension_threads_4,4,2,50000000,3,0.77,0.77,0.77,5
+extension_threads_8,8,2,50000000,3,1.55,1.55,1.56,9

@@ -1,0 +1,13 @@
+thread=0 sample=0 cpu=1
+thread=0 sample=1 cpu=1
+thread=0 sample=2 cpu=1
+thread=0 sample=3 cpu=1
+thread=0 sample=4 cpu=1
+thread=0 sample=5 cpu=1
+thread=0 sample=6 cpu=1
+thread=0 sample=7 cpu=1
+thread=0 sample=8 cpu=1
+thread=0 sample=9 cpu=1
+thread=0 sample=10 cpu=1
+thread=0 sample=11 cpu=1
+summary threads=1 samples=12 work_units=50000000 elapsed_seconds=0.285686 correctness=465003231563709696
